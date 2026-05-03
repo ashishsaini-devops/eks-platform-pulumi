@@ -43,7 +43,8 @@ It reflects real-world platform engineering practices including networking, IAM 
 
 1. Install Pulumi and AWS CLI
 2. Configure AWS credentials
-3. Run:
+3. Navigate to pulumi folder
+4. Run:
 
 ```bash
 pulumi up
@@ -51,11 +52,31 @@ pulumi up
 
 ---
 
-## 📌 Future Enhancements
+## 🔐 Security Considerations
 
-* Add Helm-based deployments
-* Integrate monitoring (Prometheus / Grafana)
-* Add CI/CD pipeline
+* IAM roles for cluster and nodes
+* Private networking for workloads
+* Controlled access to Kubernetes API
+
+---
+
+## 📊 Scalability
+
+* Auto-scaling node groups
+* Horizontal scaling support (future)
+
+---
+
+## 💰 Cost Optimization
+
+* Right-sized node groups
+* Spot instances (future enhancement)
+
+---
+
+## 🎯 Why This Project
+
+This project reflects real-world platform engineering practices used in production environments for building scalable and secure Kubernetes platforms on AWS.
 
 ---
 

@@ -1,0 +1,3 @@
+name: eks-platform
+runtime: python
+description: EKS cluster using Pulumi
